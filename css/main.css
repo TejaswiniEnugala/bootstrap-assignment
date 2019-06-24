@@ -57,6 +57,10 @@ height:2cm;
   interval:3sec;
 
 }
+.container-fluid p{
+  margin-top: 1cm;
+
+}
 .carousel-caption h3{
   color: #000;
 }
