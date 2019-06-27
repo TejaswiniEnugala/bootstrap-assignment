@@ -47,10 +47,10 @@
     <!-- Links -->
     <ul class="nav nav-tabs">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link"data-toggle="tab" href="#con">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Stores</a>
+        <a class="nav-link"data-toggle="tab" href="#con">Stores</a>
       </li>
   
       <!-- Dropdown -->
@@ -79,8 +79,8 @@
          </div>
        </ul>
    </ul>
-  </nav>
-  <div class="container">
+   </nav>
+   <div class="container"active>
   <div id="demo" class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
@@ -134,7 +134,7 @@
           <div class="col-sm-6"><p>vivo</p><img src="img/vivo.jpeg"></div>
           <div class="col-sm-6"><p>oppo</p><img src="img/oppo.jpeg"></div>
         </div>
-                <div class="row"id="cap2">
+                <div class="row"id="sale">
             <div class="col-sm-12"><img src="img/salesoffer.jpeg"></div>
             </div>
             <div class="row"id="cap2">
@@ -202,7 +202,41 @@
       </div>
     </div>
   </div>
+
+ <!--tabbed-->
+ <section id="tabbed">
+    <div class="container">
+    <ul class="nav nav-tabs"role="tabbed-list">
+        <li class="nav-item">
+            <a href="#home" class="nav-link " data-toggle="tab">what we do</a>
+        </li>
+        <li class="nav-item">
+            <a href="#profile" class="nav-link" data-toggle="tab">news</a>
+        </li>
+        <li class="nav-item">
+            <a href="#messages" class="nav-link" data-toggle="tab">FAQ</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="container tab-pane  active" id="home">
+            <h4 class="mt-2">what we do</h4>
+            <p>focuses on user needs and presents products with both strong performance and trendy design in the broad context of e-commerce.</p>
+        </div>
+        <div class="container tab-pane fade" id="profile">
+            <h4 class="mt-2">realme offline sales extend to 150 Cities in 2019; partners with 20,000 Real Partners</h4>
+            <p>Realme, the No. 1 emerging smartphone brand in India, recently announced to expand the offline sales to 150 cities in the year 2019. The young brand started with top cities of the country, gradually moving towards 150 cities phase by phase. The “Proud to be Young” brand has collaborated with offline retailers which will be known as Real Partners and will give value addition to customer experience</p>
+        </div>
+        <div class="container tab-pane fade" id="messages">
+            <h4 class="mt-2">FAQs </h4>
+            <p>How to find my phone?</p>
+            <p>Is vivo water proof?</p>
+            <p>can i replace my phone with the new one in this website?</p>
+            <p>when can i expect the delivery?</p>
+        </div>
+    </div>
 </div>
+</section>
+<!--footer-->
     <footer>
       <div class="far fa-copyright">copyright</div>
        <div class="icons">
@@ -212,6 +246,7 @@
       <div class="fab fa-google-plus-g"></div>
       <div class="fab fa-pinterest-square"></div>
       </footer>
+    </div>
         
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
